@@ -4,7 +4,9 @@
   "description": "jsii quickstart package",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "jsii",
+    "build:watch": "jsii --watch",
+    "package": "jsii-pacmak"
   },
   "keywords": [],
   "author": {

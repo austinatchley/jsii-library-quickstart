@@ -1,0 +1,137 @@
+{
+  "author": {
+    "email": "austinatchley@gmail.com",
+    "name": "Austin Atchley",
+    "roles": [
+      "author"
+    ]
+  },
+  "description": "jsii quickstart package",
+  "docs": {
+    "stability": "experimental"
+  },
+  "homepage": "https://github.com/austinatchley/jsii-library-quickstart.git",
+  "jsiiVersion": "5.2.2 (build 11132c6)",
+  "keywords": [],
+  "license": "ISC",
+  "metadata": {
+    "jsii": {
+      "pacmak": {
+        "hasDefaultInterfaces": true
+      }
+    }
+  },
+  "name": "jsii-library-quickstart",
+  "readme": {
+    "markdown": "jsii quickstart\n"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/austinatchley/jsii-library-quickstart.git"
+  },
+  "schema": "jsii/0.10.0",
+  "targets": {
+    "dotnet": {
+      "namespace": "AustinAtchley.Quickstart",
+      "packageId": "AustinAtchley.Quickstart"
+    },
+    "java": {
+      "maven": {
+        "artifactId": "quickstart",
+        "groupId": "xyz.austinatchley.quickstart"
+      },
+      "package": "xyz.austinatchley.quickstart"
+    },
+    "js": {
+      "npm": "jsii-library-quickstart"
+    },
+    "python": {
+      "distName": "austinatchley-xyz.quickstart",
+      "module": "quickstart"
+    }
+  },
+  "types": {
+    "jsii-library-quickstart.Greeter": {
+      "assembly": "jsii-library-quickstart",
+      "docs": {
+        "stability": "experimental"
+      },
+      "fqn": "jsii-library-quickstart.Greeter",
+      "initializer": {
+        "docs": {
+          "stability": "experimental"
+        },
+        "locationInModule": {
+          "filename": "index.ts",
+          "line": 8
+        },
+        "parameters": [
+          {
+            "name": "props",
+            "type": {
+              "fqn": "jsii-library-quickstart.GreeterProps"
+            }
+          }
+        ]
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "index.ts",
+        "line": 5
+      },
+      "methods": [
+        {
+          "docs": {
+            "stability": "experimental"
+          },
+          "locationInModule": {
+            "filename": "index.ts",
+            "line": 12
+          },
+          "name": "greet",
+          "returns": {
+            "type": {
+              "primitive": "string"
+            }
+          }
+        }
+      ],
+      "name": "Greeter",
+      "symbolId": "index:Greeter"
+    },
+    "jsii-library-quickstart.GreeterProps": {
+      "assembly": "jsii-library-quickstart",
+      "datatype": true,
+      "docs": {
+        "stability": "experimental"
+      },
+      "fqn": "jsii-library-quickstart.GreeterProps",
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "index.ts",
+        "line": 1
+      },
+      "name": "GreeterProps",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "experimental"
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "index.ts",
+            "line": 2
+          },
+          "name": "greetee",
+          "type": {
+            "primitive": "string"
+          }
+        }
+      ],
+      "symbolId": "index:GreeterProps"
+    }
+  },
+  "version": "1.0.0",
+  "fingerprint": "eRzckrrIdNQgleo987lWlW9j4uUVGx/ltblswGKCMfE="
+}
