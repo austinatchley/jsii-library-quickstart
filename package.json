@@ -37,5 +37,9 @@
         "packageId": "AustinAtchley.Quickstart"
       }
     }
+  },
+  "devDependencies": {
+    "jsii": "^5.2.2",
+    "jsii-pacmak": "^1.88.0"
   }
 }
