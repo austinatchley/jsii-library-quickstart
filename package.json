@@ -14,5 +14,28 @@
   "repository": {
     "url": "https://github.com/austinatchley/jsii-library-quickstart.git"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "stability": "experimental",
+  "types": "index.d.ts",
+  "jsii": {
+    "outdir": "dist",
+    "versionFormat": "full",
+    "targets": {
+      "java": {
+        "package": "xyz.austinatchley.quickstart",
+        "maven": {
+          "groupId": "xyz.austinatchley.quickstart",
+          "artifactId": "quickstart"
+        }
+      },
+      "python": {
+        "distName": "austinatchley-xyz.quickstart",
+        "module": "quickstart"
+      },
+      "dotnet": {
+        "namespace": "AustinAtchley.Quickstart",
+        "packageId": "AustinAtchley.Quickstart"
+      }
+    }
+  }
 }
