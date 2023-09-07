@@ -1,1 +1,17 @@
 node_modules/
+lerna-debug.log
+pip-wheel-metadata/
+tsconfig.tsbuildinfo
+.DS_Store
+.idea
+.vs
+dist/
+.vscode
+*.map
+*.tsbuildinfo
+*.tabl.json
+*.swp
+*.snk
+build/
+coverage/
+jsii-outdir/
